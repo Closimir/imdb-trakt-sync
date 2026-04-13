@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 env:
   ITS_IMDB_UBIDMAIN: ${{ secrets.IMDB_UBIDMAIN }}
-  ITS_IMDB_USERID: ${{ secrets.IMDB_USERID }}
+  ITS_IMDB_USER_ID: ${{ secrets.IMDB_USER_ID }}
   ITS_IMDB_AUTH: ${{ secrets.IMDB_AUTH }}
   ITS_IMDB_EMAIL: ${{ secrets.IMDB_EMAIL }}
   ITS_IMDB_PASSWORD: ${{ secrets.IMDB_PASSWORD }}
